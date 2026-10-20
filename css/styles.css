@@ -68,3 +68,6 @@ section p { margin: 0 0 30px; color: #68758b; line-height: 1.65; }
 
 .button:hover { transform: translateY(-2px); background: #1d2d8b; }
 .button:focus-visible { outline: 3px solid #9aa8ff; outline-offset: 3px; }
+
+footer { margin-top: 32px; color: #7b879b; font-size: .9rem; }
+footer a { color: #3549b8; font-weight: 650; text-decoration-thickness: 1px; text-underline-offset: 3px; }
