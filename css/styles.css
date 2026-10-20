@@ -78,3 +78,5 @@ form input, form textarea { width: 100%; padding: 12px 14px; border: 1px solid #
 form input:focus, form textarea:focus { outline: 3px solid #d8deff; border-color: #5268d8; }
 form textarea { resize: vertical; }
 form .button { justify-self: start; border: 0; cursor: pointer; font: inherit; }
+
+/* ajuste temporal para practicar git stash */
