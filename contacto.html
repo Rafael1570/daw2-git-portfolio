@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Contacto</title><link rel="stylesheet" href="css/styles.css"></head>
+<body><header><h1>Contacto</h1><nav><a href="index.html">Inicio</a></nav></header>
+<main><section><h2>Formulario de contacto</h2><p>Formulario de demostración sin servicio de envío.</p>
+<form onsubmit="event.preventDefault(); document.getElementById('aviso').textContent='Demostración: el mensaje no se ha enviado.';">
+<label for="nombre">Nombre</label><input id="nombre" name="nombre" required>
+<label for="email">Correo electrónico</label><input id="email" name="email" type="email" required>
+<label for="mensaje">Mensaje</label><textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+<button type="submit">Probar formulario</button><p id="aviso" role="status"></p></form></section></main></body></html>
